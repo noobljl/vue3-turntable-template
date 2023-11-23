@@ -1,0 +1,27 @@
+.rootPageDiv {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    color: #2e2e2e;
+}
+.mask {
+    /* 子绝父相 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+}
+
+.center-class {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input:focus {
+    outline: none;
+}

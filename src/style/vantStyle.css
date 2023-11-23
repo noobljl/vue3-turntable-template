@@ -1,0 +1,11 @@
+.van-toast {
+	font-size: 30px;
+	padding: 30px 70px;
+	border-radius: 25px;
+	line-height: 45px;
+	width: 280px;
+}
+
+.van-toast__icon {
+	font-size: 60px !important;
+}
