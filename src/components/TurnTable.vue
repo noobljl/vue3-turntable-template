@@ -25,7 +25,7 @@ const props = defineProps([
 ])
 
 const isRotate = ref<boolean>(false)
-const finalDeg = ref<number>(60)
+const finalDeg = ref<number>(0)
 //开始抽奖
 const start = () => {
 	isRotate.value = true
