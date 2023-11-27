@@ -10,7 +10,7 @@
 <script lang="ts" setup>
 import router from "@/router"
 
-localStorage.clear()
+// localStorage.clear()
 
 //返回首页
 const backPage = () => {
