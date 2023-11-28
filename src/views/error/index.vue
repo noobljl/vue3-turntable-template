@@ -1,10 +1,10 @@
 <template>
-	<div class="errorPage" @touchmove.prevent>
+	<div class="error-page" @touchmove.prevent>
 		<div class="content">
 			<img src="@/assets/404/img.png" alt="" />
 			<p>页面意外丢失，请重新再试</p>
 		</div>
-		<div class="backText" @click="backPage">返回首页</div>
+		<div class="back-text" @click="backPage">返回首页</div>
 	</div>
 </template>
 <script lang="ts" setup>
@@ -18,7 +18,7 @@ const backPage = () => {
 }
 </script>
 <style lang="less" scoped>
-.errorPage {
+.error-page {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
@@ -40,7 +40,7 @@ const backPage = () => {
 		}
 	}
 
-	.backText {
+	.back-text {
 		position: fixed;
 		left: 50%;
 		transform: translateX(-50%);
